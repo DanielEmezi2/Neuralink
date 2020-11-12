@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 29px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a:active{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: white;}
+p {
+    color: #555
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col2 {
+    flex-basis: 50%;
+    min-height: 300px;
+
+}
+.col2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col2 h1{   
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 5px 30px;
+    margin: 30px 0;
+    border-radius: 30px ;
+    transition: background 0.5s;
+} 
+.header{
+    background-color: rgb(104, 108, 105);
+}
+.header .row{
+    margin-top: 70px;
+
+}
+.btn:hover{
+    background: #563434;
+}
+.div h3 {
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.div {
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+.col1{
+    background-color: #555;
+    align-items: center;
+    color: white;
+    flex-basis: 30%;
+    min-width: 33.33%;
+  
+    
+}
+.col1 h1 {
+    padding: 20px;
+}
+.col1 h3{
+    padding: 20px;
+   
+}
+.col6{
+    background-color: rgb(211, 195, 179);
+    align-items: center;
+    color: white; 
+    flex-basis: 30%;
+    min-width: 33.33%;
+    
+}
+.col6 h1 {
+    padding: 20px;
+}
+.col6 h3{
+    padding: 20px;
+   
+}
+.col3{
+    background-color: rgb(149, 171, 158);
+    align-items: center;
+    color: white; 
+    flex-basis: 30%;
+    min-width: 33.33%;
+    
+}
+.col3 h3{
+    padding: 20px;
+}
+.col3 h1{
+    padding: 20px;
+}
+ 
+.col1 img{
+    width: 100%;
+
+}
+.col1 h1 h4{
+    float: right;
+}
+.col6 img{
+    width: 100%;
+
+}
+.col3 img{
+    width: 100%;
+
+}
+.row .col1:hover{
+    opacity: 0.9;
+}
+.row .col6:hover{
+    opacity: 0.9;
+}
+.row .col3:hover{
+    opacity: 0.9;
+} 
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px; 
+}
+/*
+.col1 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col2 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col1 img{
+    width: 100%;
+
+}
+.col2 img{
+    width: 100%;
+
+}
+.col3 img{
+    width: 100%;
+
+}
+*/
+.small-container{
+    max-width: 100%;
+    margin: auto;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+
+}
+.roll{
+    background-color: 	rgb(238, 237, 229);
+    display: flex;
+    align-items: center;
+    padding: 29px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.roll1{
+    float: left;
+    color: black;
+}
+.roll p{
+    color: black;
+}
+.img{
+    float: right;
+}
+
+.second-container{
+    max-width: 100%;
+    margin: auto;
+
+}
+h3{
+    cursor: pointer;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 70px 0 30px;
+
+}
+.containe{
+    max-width: 1300px;
+    
+}
+h4{
+    margin-right: 10px;
+}
+.row .logo{
+    float: left;
+}
+ol{
+  float: right;
+  list-style: none;
+  color: #8a8a8a;
+}
+ol li a{
+    color: #8a8a8a;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.row1 a{
+    color: #8a8a8a;
+}
